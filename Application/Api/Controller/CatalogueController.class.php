@@ -2,7 +2,7 @@
 namespace Api\Controller;
 use Think\Controller;
 class CatalogueController extends Controller {
-     public function catalo(){
+     public function catalo() {
         $result = array();
         $result['status'] = 'success';
         $id = isset($_POST['id'])?$_POST['id']:18;
@@ -24,7 +24,7 @@ class CatalogueController extends Controller {
         //var_dump($result);
         $this->ajaxReturn($result);
      }
-    public function subject(){
+    public function subject() {
     	$result = array();
         $result['status'] = 'success';
         $id = isset($_POST['id'])?$_POST['id']:'18';

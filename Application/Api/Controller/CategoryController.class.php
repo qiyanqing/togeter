@@ -2,7 +2,7 @@
 namespace Api\Controller;
 use Think\Controller;
 class CategoryController extends Controller {
-    public function cate(){
+    public function cate() {
     	$result = array();
     	$category = M('category')->where(array('status'=>1,'parent_id'=>0))->select();
     	foreach ($category as $value) {
@@ -13,7 +13,7 @@ class CategoryController extends Controller {
     	//var_dump($result);
     	$this->ajaxReturn($result);
     }
-    public function cate_child(){
+    public function cate_child() {
         $result = array();
         $result['status'] = 'success';
         $id = isset($_POST['id'])?$_POST['id']:1;
@@ -28,7 +28,6 @@ class CategoryController extends Controller {
         }
         // $cate_one['child'] = $child;
         $result['data']['child'] = $child;
-        //r_dump($result);
         $this->ajaxReturn($result);
     }
     
