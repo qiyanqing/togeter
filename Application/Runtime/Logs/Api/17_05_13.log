@@ -14748,3 +14748,381 @@ SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent
 SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0006s ]
 SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0006s ]
 
+[ 2017-05-13T12:44:18+08:00 ] 192.168.199.241 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0065s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0005s ]
+
+[ 2017-05-13T12:44:19+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0724s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:44:20+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0988s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0009s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:44:23+08:00 ] 192.168.199.122 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0070s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 7  [ RunTime:0.0006s ]
+
+[ 2017-05-13T12:44:30+08:00 ] 192.168.199.243 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:44:30+08:00 ] 192.168.199.236 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0210s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 3  [ RunTime:0.0005s ]
+
+[ 2017-05-13T12:44:31+08:00 ] 192.168.199.243 /index.php/Api/Category/cate?id=id&name=name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:44:31+08:00 ] 192.168.199.243 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0899s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 4  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:44:31+08:00 ] 192.168.199.243 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0861s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:44:32+08:00 ] 192.168.199.236 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0537s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 3  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:44:35+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:44:39+08:00 ] 192.168.199.241 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0277s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0009s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0013s ]
+
+[ 2017-05-13T12:44:48+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:44:49+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1225s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:44:50+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1120s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:44:51+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0277s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0006s ]
+
+[ 2017-05-13T12:44:52+08:00 ] 192.168.199.243 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-05-13T12:44:53+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:44:54+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0255s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0009s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:44:56+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0937s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0006s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0006s ]
+
+[ 2017-05-13T12:44:58+08:00 ] 192.168.199.105 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0682s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:44:59+08:00 ] 192.168.199.243 /index.php/Api/Category/cate?id=id&name=name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0010s ]
+
+[ 2017-05-13T12:44:59+08:00 ] 192.168.199.243 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0812s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 6  [ RunTime:0.0005s ]
+
+[ 2017-05-13T12:44:59+08:00 ] 192.168.199.243 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0766s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0008s ]
+
+[ 2017-05-13T12:45:59+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.2889s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:46:06+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1145s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:46:12+08:00 ] 192.168.199.105 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1016s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0008s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0012s ]
+
+[ 2017-05-13T12:46:13+08:00 ] 192.168.199.236 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1240s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 3  [ RunTime:0.0006s ]
+
+[ 2017-05-13T12:46:13+08:00 ] 192.168.199.236 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0771s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
+[ 2017-05-13T12:46:14+08:00 ] 192.168.199.236 /index.php/Api/Category/cate?id=1&name=%3C%20%7B%7Blist.father%7D%7D%20%20%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0011s ]
+
+[ 2017-05-13T12:46:15+08:00 ] 192.168.199.236 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0951s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:46:22+08:00 ] 192.168.199.166 /index.php/Api/Category/cate_child
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1222s ]
+SQL: SELECT `name` FROM `we_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`icon` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 17  [ RunTime:0.0007s ]
+
+[ 2017-05-13T12:46:23+08:00 ] 192.168.199.236 /index.php/Api/Category/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0009s ]
+
