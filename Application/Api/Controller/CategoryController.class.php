@@ -26,8 +26,8 @@ class CategoryController extends Controller {
                 $child[$k]['son_s'] = $son_s;
             }
         }
-        // $cate_one['child'] = $child;
         $result['data']['child'] = $child;
+        //var_dump($result);
         $this->ajaxReturn($result);
     }
     
